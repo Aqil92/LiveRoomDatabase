@@ -1,16 +1,15 @@
 # LiveRoomDatabase
 
-allprojects {
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
-  
-  dependencies {
-	        implementation 'com.github.Aqil92:LiveRoomDatabase:-SNAPSHOT'
-	}
-  
-  dependencies {
-	        implementation 'com.github.Aqil92:LiveRoomDatabase:523ec30afd'
+Step 2. Add the dependency
+
+	dependencies {
+	        implementation 'com.github.Aqil92:LiveRoomDatabase:1.0'
 	}
